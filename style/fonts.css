@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 300;
+  src: local('HelveticaNeueCyr-Light'),local('HelveticaNeueCyr Light'),local('HelveticaNeueCyr-300'), local('HelveticaNeueCyr 300'),
+  url('../fonts/helveticaneuecyr-light.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/helveticaneuecyr-light.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 550;
+  src: local('HelveticaNeueCyr-Roman'), local('HelveticaNeueCyr-550'), local('HelveticaNeueCyr Roman'), local('HelveticaNeueCyr 550'),
+  url('../fonts/helveticaneuecyr-roman.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/helveticaneuecyr-roman.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Comfortaa'), local('Comfortaa 400'), local('Comfortaa-400'),
+  url('../fonts/comfortaa-v38-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/comfortaa-v38-latin_cyrillic-regular.woff') format('woff'); /* Modern Browsers */
+
+}
