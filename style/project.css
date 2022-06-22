@@ -49,10 +49,10 @@
 
 .projects__grid {
   display: grid;
-  row-gap: 52px;
-  column-gap: 120px;
-  grid-template-columns: auto 380px;
+  gap: 52px;
+  grid-template-columns: minmax(auto,680px) minmax(auto,380px);
   grid-template-rows: 450px auto;
+  justify-content: space-between;
 }
 
 .projects__content {
@@ -63,7 +63,6 @@
 .article__blog {
   grid-column:2/3 ;
   grid-row: 1/2;
-
 }
 
 .article__more {
@@ -80,8 +79,8 @@
 }
 
 .content__article {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 280px auto;
   justify-content: space-between;
   gap: 20px;
 }
