@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'HelveticaNeueCyr';
+  font-family: "HelveticaNeueCyr";
   font-style: normal;
   font-weight: 300;
   src: local('HelveticaNeueCyr-Light'),local('HelveticaNeueCyr Light'),local('HelveticaNeueCyr-300'), local('HelveticaNeueCyr 300'),
@@ -8,7 +8,7 @@
 }
 
 @font-face {
-  font-family: 'HelveticaNeueCyr';
+  font-family: "HelveticaNeueCyr";
   font-style: normal;
   font-weight: 550;
   src: local('HelveticaNeueCyr-Roman'), local('HelveticaNeueCyr-550'), local('HelveticaNeueCyr Roman'), local('HelveticaNeueCyr 550'),
@@ -17,7 +17,7 @@
 }
 
 @font-face {
-  font-family: 'Comfortaa';
+  font-family: "Comfortaa";
   font-style: normal;
   font-weight: 400;
   src: local('Comfortaa'), local('Comfortaa 400'), local('Comfortaa-400'),

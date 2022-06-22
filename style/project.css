@@ -1,0 +1,132 @@
+
+.projects__caption {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 50px;
+}
+
+.preview__caption {
+  font-weight: 550;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+
+.preview__text {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 22px;
+}
+
+.projects__all {
+  font-weight: 550;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FF8A00;
+}
+
+.projects__all {
+  padding-right: 41px;
+  position: relative;
+}
+.projects__all:after {
+  content: "";
+  width: 26px;
+  height: 16px;
+  display: block;
+  background-image: url(../img/project/bi_arrow-right.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  right:0;
+  bottom: 0;
+  margin: auto;
+}
+
+.projects__grid {
+  display: grid;
+  row-gap: 52px;
+  column-gap: 120px;
+  grid-template-columns: auto 380px;
+  grid-template-rows: 450px auto;
+}
+
+.projects__content {
+  grid-column:1/2 ;
+  grid-row: 1/3;
+}
+
+.article__blog {
+  grid-column:2/3 ;
+  grid-row: 1/2;
+
+}
+
+.article__more {
+  grid-column:2/3 ;
+  grid-row: 2/3;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap:30px;
+}
+
+.content__article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.blog {
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(3,1fr);
+  display: grid;
+  padding: 40px 10px;
+  background-image: url(../img/project/friend-of-human.jpg);
+}
+
+.blog__caption {
+  grid-column:1/3 ;
+  grid-row: 3/4;
+}
+
+.blog__all {
+  grid-column:2/3 ;
+  grid-row: 3/4;
+  align-self: end;
+}
+
+.blog__caption {
+  font-style: normal;
+  font-weight: 550;
+  font-size: 30px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.more__caption {
+  font-weight: 550;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 22px;
+}
+.more__grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(3,1fr);
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.more__all {
+  display: none;
+}
