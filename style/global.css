@@ -106,11 +106,40 @@ button {
   cursor: pointer;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .container {
+
     padding: 0 72px;
+  }
+
+  section {
+    padding: 40px 0;
   }
 
 }
 
+@media (max-width: 768px) {
+
+  .container {
+
+    padding: 0 34px;
+  }
+
+  section {
+    padding: 30px 0;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .container {
+
+    padding: 0 25px;
+  }
+
+  section {
+    padding: 20px 0;
+  }
+
+}
 

@@ -12,9 +12,8 @@
   line-height: 26px;
 }
 
-.pets__img {
-  object-fit: cover;
-
+.pets__img_1020, .pets__img_768, .pets__img_320{
+  display: none;
 }
 
 .pets__grid {
@@ -70,6 +69,13 @@
     line-height: 24px;
   }
 
+  .pets__img_1440 {
+    display: none;
+  }
+  .pets__img_1020 {
+    display: unset;
+  }
+
   .pets__grid {
     grid-template-columns: repeat(9,1fr);
     grid-template-rows: repeat(5,1fr);
@@ -106,9 +112,140 @@
     grid-row: 3/6;
   }
 
+
 }
 
-@media (max-width: 768px)  {}
+@media (max-width: 768px)  {
 
-  /* тут застряла */
 
+  .pets__caption {
+    font-size: 30px;
+    line-height: 34px;
+    margin-bottom: 30px;
+  }
+
+  .pets__name {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .pets__img_1020 {
+    display: none;
+  }
+  .pets__img_768 {
+    display: unset;
+  }
+
+  .pets__grid {
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: repeat(3,auto);
+
+  }
+
+  .pets__foto-twinky-pinky {
+    grid-column: 1/7;
+    grid-row: 1/2;
+
+  }
+
+  .pets__foto-murzik {
+    grid-column: 7/10;
+    grid-row: 1/2;
+  }
+
+  .pets__foto-misha-richard {
+    grid-column: 5/10;
+    grid-row: 3/4;
+  }
+
+  .pets__foto-jack {
+    grid-column: 1/5;
+    grid-row: 2/3;
+  }
+
+  .pets__foto-jerry {
+    grid-column: 5/10;
+    grid-row: 2/3;
+
+
+  }
+
+  .pets__foto-rocky-senya {
+    grid-column: 1/5;
+    grid-row: 3/4;
+
+  }
+
+
+  .pets__img-senya , .pets__img-rocky {
+    object-fit: cover;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 460px)  {
+
+
+  .pets__caption {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+
+  .pets__name {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .pets__img_768 {
+    display: none;
+  }
+  .pets__img_320 {
+    display: unset;
+  }
+
+  .pets__grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+  }
+
+  .pets__foto-twinky-pinky {
+    grid-column: unset;
+    grid-row: 1/2;
+
+  }
+
+  .pets__foto-murzik {
+    grid-column: unset;
+    grid-row: 2/3;
+  }
+
+  .pets__foto-misha-richard {
+    grid-column: unset;
+    grid-row: 3/4;
+  }
+
+  .pets__foto-jack {
+    grid-column: unset;
+    grid-row: 6/7;
+  }
+
+  .pets__foto-jerry {
+    grid-column: unset;
+    grid-row: 4/5;
+
+  }
+
+  .pets__foto-rocky-senya {
+    grid-column: unset;
+    grid-row: 5/6;
+
+  }
+
+  .pets__foto .pets__img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+}
